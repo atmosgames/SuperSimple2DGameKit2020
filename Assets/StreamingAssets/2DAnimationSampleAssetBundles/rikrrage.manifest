@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 189067178
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eba0860e9e044976888018a94f4aabab
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d7b7bcdb2fe17342b8c63e4ffc509534
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Samples/2D Animation/3.2.3/Samples/5 SpriteSwap/Sprites/Rikr Rage.png
+- Assets/Samples/2D Animation/3.2.3/Samples/5 SpriteSwap/Sprite Library/Rikr Rage.asset
+Dependencies: []
