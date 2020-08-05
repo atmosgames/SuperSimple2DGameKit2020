@@ -6,6 +6,7 @@ public class Collectable : MonoBehaviour
 {
     enum ItemType { Coin, Health, Ammo} //Creates an ItemType enum (drop down)
     [SerializeField] private ItemType itemType;
+    NewPlayer newPlayer;
 
     // Start is called before the first frame update
     void Start()
@@ -28,14 +29,15 @@ public class Collectable : MonoBehaviour
         {
             Debug.Log("I'm an inventory item!");
         }
-        
+
+        newPlayer = GameObject.Find("NewPlayer").GetComponent<NewPlayer>();
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+       
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -43,7 +45,8 @@ public class Collectable : MonoBehaviour
         //If the player is touching me, print "Collect" in the console
         if (collision.gameObject.name == "Player")
         {
-            GameObject.Find("Player").GetComponent<NewPlayer>().coinsCollected += 1;
+            newPlayer.coinsCollected += 1;
+            newPlayer.UpdateUI();
             Destroy(gameObject);
         }
     }

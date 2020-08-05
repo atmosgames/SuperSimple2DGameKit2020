@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class NewPlayer : PhysicsObject
 {
@@ -11,10 +12,11 @@ public class NewPlayer : PhysicsObject
     public int health = 100;
     public int ammo;
 
+    public Text coinsText;
+
     // Start is called before the first frame update
     void Start()
     {
-       
     }
 
     // Update is called once per frame
@@ -27,5 +29,11 @@ public class NewPlayer : PhysicsObject
         {
             velocity.y = jumpPower;
         }
+    }
+
+    //Update UI elements
+    public void UpdateUI()
+    {
+        coinsText.text = coinsCollected.ToString();
     }
 }
