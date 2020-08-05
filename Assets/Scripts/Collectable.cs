@@ -12,7 +12,7 @@ public class Collectable : MonoBehaviour
     void Start()
     {
         //If I'm a coin, print to the console "I'm a coin"
-        
+        /*
         if (itemType == ItemType.Coin)
         {
             Debug.Log("I'm a coin!");
@@ -29,8 +29,9 @@ public class Collectable : MonoBehaviour
         {
             Debug.Log("I'm an inventory item!");
         }
+        */
 
-        newPlayer = GameObject.Find("NewPlayer").GetComponent<NewPlayer>();
+        newPlayer = GameObject.Find("Player").GetComponent<NewPlayer>();
 
     }
 
@@ -45,7 +46,26 @@ public class Collectable : MonoBehaviour
         //If the player is touching me, print "Collect" in the console
         if (collision.gameObject.name == "Player")
         {
-            newPlayer.coinsCollected += 1;
+            if (itemType == ItemType.Coin)
+            {
+                newPlayer.coinsCollected += 1;
+            }
+            else if (itemType == ItemType.Health)
+            {
+                if (newPlayer.health < 100)
+                {
+                    newPlayer.health += 1;
+                }
+            }
+            else if (itemType == ItemType.Ammo)
+            {
+               
+            }
+            else
+            {
+                
+            }
+
             newPlayer.UpdateUI();
             Destroy(gameObject);
         }
