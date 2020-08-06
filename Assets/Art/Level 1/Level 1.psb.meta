@@ -117,7 +117,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 3852
-      y: 4
+      y: 116
       width: 61
       height: 142
     spriteID: 2e67bf38d080be9439d8056f2ba0a113
@@ -130,7 +130,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2062, y: -1306}
+    uvTransform: {x: 2062, y: -1194}
   - name: Coin
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -139,7 +139,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 3852
-      y: 211
+      y: 323
       width: 27
       height: 27
     spriteID: 01e1fedf5a6c7fe41b6b3aefbe4f0479
@@ -152,7 +152,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1791, y: -1184}
+    uvTransform: {x: 1791, y: -1072}
   - name: Background (Reference)
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -183,7 +183,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 3852
-      y: 154
+      y: 266
       width: 46
       height: 49
     spriteID: d04cf4a74d1fe4b4b815839d043ec8f4
@@ -196,7 +196,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1921, y: -1227}
+    uvTransform: {x: 1921, y: -1115}
   - name: Layer 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -204,8 +204,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3906
-      y: 154
+      x: 3921
+      y: 116
       width: 0
       height: 0
     spriteID: 84f4080da22addc449d8587cd9405db1
@@ -218,7 +218,29 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 66, y: -2006}
+    uvTransform: {x: 81, y: -2044}
+  - name: Enemy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3852
+      y: 4
+      width: 89
+      height: 104
+    spriteID: 673343c16897a24439ebf271dffa7fef
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1881, y: -1306}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -238,34 +260,41 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
+  - name: Enemy
+    spriteName: Enemy
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 673343c16897a24439ebf271dffa7fef
+    layerID: 9
+    mosaicPosition: {x: 3852, y: 4}
   - name: Key
     spriteName: Key
     isGroup: 0
     parentIndex: -1
     spriteID: d04cf4a74d1fe4b4b815839d043ec8f4
     layerID: 7
-    mosaicPosition: {x: 3852, y: 154}
+    mosaicPosition: {x: 3852, y: 266}
   - name: Layer 1
     spriteName: Layer 1
     isGroup: 0
     parentIndex: -1
     spriteID: 84f4080da22addc449d8587cd9405db1
     layerID: 6
-    mosaicPosition: {x: 3906, y: 154}
+    mosaicPosition: {x: 3921, y: 116}
   - name: Coin
     spriteName: Coin
     isGroup: 0
     parentIndex: -1
     spriteID: 01e1fedf5a6c7fe41b6b3aefbe4f0479
     layerID: 5
-    mosaicPosition: {x: 3852, y: 211}
+    mosaicPosition: {x: 3852, y: 323}
   - name: Player
     spriteName: Player
     isGroup: 0
     parentIndex: -1
     spriteID: 2e67bf38d080be9439d8056f2ba0a113
     layerID: 3
-    mosaicPosition: {x: 3852, y: 4}
+    mosaicPosition: {x: 3852, y: 116}
   - name: Ground1
     spriteName: Ground1
     isGroup: 0
