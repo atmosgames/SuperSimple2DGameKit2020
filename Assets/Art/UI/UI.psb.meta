@@ -139,7 +139,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 3852
-      y: 115
+      y: 226
       width: 105
       height: 105
     spriteID: 83ac2d70c1b34f042b8b055ad0da9d27
@@ -152,7 +152,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 329, y: -1884}
+    uvTransform: {x: 329, y: -1773}
   - name: Inventory Blank
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -175,6 +175,50 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 183, y: -1995}
+  - name: Inventory Key Gem
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3852
+      y: 115
+      width: 105
+      height: 105
+    spriteID: 4b8b09c7c0848804b83e3493ee9a53b0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 454, y: -1884}
+  - name: Smile
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3852
+      y: 337
+      width: 100
+      height: 81
+    spriteID: 89199958fb66c6944bbca3d79f3c478c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 582, y: -1674}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -194,13 +238,27 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
+  - name: Inventory Key Gem
+    spriteName: Inventory Key Gem
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4b8b09c7c0848804b83e3493ee9a53b0
+    layerID: 24
+    mosaicPosition: {x: 3852, y: 115}
+  - name: Smile
+    spriteName: Smile
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 89199958fb66c6944bbca3d79f3c478c
+    layerID: 25
+    mosaicPosition: {x: 3852, y: 337}
   - name: Inventory Key
     spriteName: Inventory Key
     isGroup: 0
     parentIndex: -1
     spriteID: 83ac2d70c1b34f042b8b055ad0da9d27
     layerID: 19
-    mosaicPosition: {x: 3852, y: 115}
+    mosaicPosition: {x: 3852, y: 226}
   - name: Inventory Blank
     spriteName: Inventory Blank
     isGroup: 0

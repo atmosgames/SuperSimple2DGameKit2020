@@ -4,35 +4,15 @@ using UnityEngine;
 
 public class Collectable : MonoBehaviour
 {
-    enum ItemType { Coin, Health, Ammo} //Creates an ItemType enum (drop down)
+    enum ItemType { Coin, Health, Ammo, InventoryItem} //Creates an ItemType enum (drop down)
     [SerializeField] private ItemType itemType;
-    NewPlayer newPlayer;
+    [SerializeField] private string inventoryStringName;
+    [SerializeField] private Sprite inventorySprite;
 
     // Start is called before the first frame update
     void Start()
     {
-        //If I'm a coin, print to the console "I'm a coin"
-        /*
-        if (itemType == ItemType.Coin)
-        {
-            Debug.Log("I'm a coin!");
-        }
-        else if(itemType == ItemType.Health)
-        {
-            Debug.Log("I'm health!");
-        }
-        else if (itemType == ItemType.Ammo)
-        {
-            Debug.Log("I'm ammo!");
-        }
-        else
-        {
-            Debug.Log("I'm an inventory item!");
-        }
-        */
-
-        newPlayer = GameObject.Find("Player").GetComponent<NewPlayer>();
-
+       
     }
 
     // Update is called once per frame
@@ -48,25 +28,29 @@ public class Collectable : MonoBehaviour
         {
             if (itemType == ItemType.Coin)
             {
-                newPlayer.coinsCollected += 1;
+                NewPlayer.Instance.coinsCollected += 1;
             }
             else if (itemType == ItemType.Health)
             {
-                if (newPlayer.health < 100)
+                if (NewPlayer.Instance.health < 100)
                 {
-                    newPlayer.health += 1;
+                    NewPlayer.Instance.health += 1;
                 }
             }
             else if (itemType == ItemType.Ammo)
             {
                
             }
+            else if(itemType == ItemType.InventoryItem)
+            {
+                NewPlayer.Instance.AddInventoryItem(inventoryStringName, inventorySprite);
+            }
             else
             {
                 
             }
 
-            newPlayer.UpdateUI();
+            NewPlayer.Instance.UpdateUI();
             Destroy(gameObject);
         }
     }

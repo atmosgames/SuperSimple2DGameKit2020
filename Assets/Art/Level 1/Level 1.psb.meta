@@ -139,7 +139,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 3852
-      y: 154
+      y: 211
       width: 27
       height: 27
     spriteID: 01e1fedf5a6c7fe41b6b3aefbe4f0479
@@ -152,7 +152,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1791, y: -1241}
+    uvTransform: {x: 1791, y: -1184}
   - name: Background (Reference)
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -175,6 +175,50 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
+  - name: Key
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3852
+      y: 154
+      width: 46
+      height: 49
+    spriteID: d04cf4a74d1fe4b4b815839d043ec8f4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1921, y: -1227}
+  - name: Layer 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3906
+      y: 154
+      width: 0
+      height: 0
+    spriteID: 84f4080da22addc449d8587cd9405db1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 66, y: -2006}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -194,13 +238,27 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
+  - name: Key
+    spriteName: Key
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d04cf4a74d1fe4b4b815839d043ec8f4
+    layerID: 7
+    mosaicPosition: {x: 3852, y: 154}
+  - name: Layer 1
+    spriteName: Layer 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 84f4080da22addc449d8587cd9405db1
+    layerID: 6
+    mosaicPosition: {x: 3906, y: 154}
   - name: Coin
     spriteName: Coin
     isGroup: 0
     parentIndex: -1
     spriteID: 01e1fedf5a6c7fe41b6b3aefbe4f0479
     layerID: 5
-    mosaicPosition: {x: 3852, y: 154}
+    mosaicPosition: {x: 3852, y: 211}
   - name: Player
     spriteName: Player
     isGroup: 0
