@@ -12,7 +12,7 @@ public class ParallaxLayer : MonoBehaviour
     private bool adjusted = false;
 
     public void MoveLayer(float positionChangeX, float positionChangeY)
-    {   
+    {
         newPosition = transform.localPosition;
         newPosition.x -= positionChangeX * (-parallaxAmount * 40) * (Time.deltaTime);
         newPosition.y -= positionChangeY * (-parallaxAmount * 40) * (Time.deltaTime);
@@ -20,4 +20,3 @@ public class ParallaxLayer : MonoBehaviour
     }
 
 }
- 

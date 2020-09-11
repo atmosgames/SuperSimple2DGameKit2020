@@ -205,7 +205,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 3921
-      y: 116
+      y: 135
       width: 0
       height: 0
     spriteID: 84f4080da22addc449d8587cd9405db1
@@ -218,7 +218,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 81, y: -2044}
+    uvTransform: {x: 81, y: -2025}
   - name: Enemy
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -241,6 +241,28 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1881, y: -1306}
+  - name: White Pixel
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3921
+      y: 116
+      width: 11
+      height: 11
+    spriteID: 57bf62b213f03d04db467ff6a6d3eac2
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1784, y: -1327}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -280,7 +302,7 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 84f4080da22addc449d8587cd9405db1
     layerID: 6
-    mosaicPosition: {x: 3921, y: 116}
+    mosaicPosition: {x: 3921, y: 135}
   - name: Coin
     spriteName: Coin
     isGroup: 0
@@ -288,6 +310,13 @@ ScriptedImporter:
     spriteID: 01e1fedf5a6c7fe41b6b3aefbe4f0479
     layerID: 5
     mosaicPosition: {x: 3852, y: 323}
+  - name: White Pixel
+    spriteName: White Pixel
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 57bf62b213f03d04db467ff6a6d3eac2
+    layerID: 10
+    mosaicPosition: {x: 3921, y: 116}
   - name: Player
     spriteName: Player
     isGroup: 0

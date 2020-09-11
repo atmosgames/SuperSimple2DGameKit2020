@@ -5,6 +5,7 @@ using UnityEngine;
 public class PhysicsObject : MonoBehaviour
 {
 
+    [Header("Physics Object Attributes")]
     public float minGroundNormalY = .65f;
     public float gravityModifier = 1f;
 
@@ -104,7 +105,6 @@ public class PhysicsObject : MonoBehaviour
                 float modifiedDistance = hitBufferList[i].distance - shellRadius;
                 distance = modifiedDistance < distance ? modifiedDistance : distance;
             }
-
 
         }
 

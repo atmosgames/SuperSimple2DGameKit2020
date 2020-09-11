@@ -123,3 +123,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: 3
+  inventoryStringName: key1
+  inventorySprite: {fileID: 3373445591790777202, guid: 62672638594bb3444b7bdf4be3a1bc70,
+    type: 3}
