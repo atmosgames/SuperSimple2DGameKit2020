@@ -19,6 +19,7 @@ public class NewPlayer : PhysicsObject
     public int health = 100;
 
     [Header("References")]
+    [SerializeField] private Animator animator;
     [SerializeField] private GameObject attackBox;
     private Vector2 healthBarOrigSize;
     public Dictionary<string, Sprite> inventory = new Dictionary<string, Sprite>(); //Dictionary storing all inventory item strings and values
@@ -82,6 +83,13 @@ public class NewPlayer : PhysicsObject
         {
             Die();
         }
+
+        //Set each animator float, bool, and trigger so it knows which animation to fire
+        animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);
+        animator.SetFloat("velocityY", velocity.y);
+        animator.SetBool("grounded", grounded);
+        
+
     }
 
     //Activate Attack Function
