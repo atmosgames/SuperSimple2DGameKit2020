@@ -98,7 +98,7 @@ SortingGroup:
   m_Enabled: 1
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 5
 --- !u!114 &3889309540070693648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,7 +154,7 @@ SortingGroup:
   m_Enabled: 1
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 4
 --- !u!114 &1084358131297594638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -374,7 +374,7 @@ SortingGroup:
   m_Enabled: 1
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
 --- !u!114 &5627188980999621613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -430,7 +430,7 @@ SortingGroup:
   m_Enabled: 1
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -4
 --- !u!114 &5319926222552899518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -486,7 +486,7 @@ SortingGroup:
   m_Enabled: 1
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -3
 --- !u!114 &266003011402507511
 MonoBehaviour:
   m_ObjectHideFlags: 0

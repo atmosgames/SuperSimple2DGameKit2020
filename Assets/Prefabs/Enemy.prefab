@@ -72,14 +72,14 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 8618450598600664285, guid: 87a13553350c38f40a4864a1e8bc7dd7,
+  m_SortingOrder: 15
+  m_Sprite: {fileID: 5883878347695092260, guid: dd4400c14565f1a48a1a189c74f50f8f,
     type: 3}
-  m_Color: {r: 1, g: 0, b: 0.43551683, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.89, y: 1.04}
+  m_Size: {x: 0.94, y: 0.97}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -99,7 +99,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.89, y: 1.04}
+  m_Size: {x: 0.89, y: 0.9}
   m_Direction: 0
 --- !u!50 &8714952388807318177
 Rigidbody2D:
@@ -136,11 +136,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minGroundNormalY: 0.65
   gravityModifier: 1
+  attackPower: 10
+  health: 100
   maxSpeed: 2
   rayCastLayerMask:
     serializedVersion: 2
-    m_Bits: 51
+    m_Bits: 819
   rayCastOffset: {x: 1, y: 0}
   rayCastLength: 1
-  attackPower: 10
-  health: 100
