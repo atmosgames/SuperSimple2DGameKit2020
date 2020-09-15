@@ -75,6 +75,7 @@ public class NewPlayer : PhysicsObject
         //If we press "Fire1", then set the attackBox to active. Otherwise, set active to false
         if (Input.GetButtonDown("Fire1"))
         {
+            animator.SetTrigger("attack");
             StartCoroutine(ActivateAttack());
         }
 
