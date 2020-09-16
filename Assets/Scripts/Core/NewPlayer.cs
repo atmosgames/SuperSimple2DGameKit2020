@@ -76,7 +76,7 @@ public class NewPlayer : PhysicsObject
         if (Input.GetButtonDown("Fire1"))
         {
             animator.SetTrigger("attack");
-            StartCoroutine(ActivateAttack());
+            //StartCoroutine(ActivateAttack());
         }
 
         //Check if player health is smaller than or equal to 0.
@@ -89,10 +89,11 @@ public class NewPlayer : PhysicsObject
         animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);
         animator.SetFloat("velocityY", velocity.y);
         animator.SetBool("grounded", grounded);
-        
+        animator.SetFloat("attackDirectionY", Input.GetAxis("Vertical"));
 
     }
 
+    /*
     //Activate Attack Function
     public IEnumerator ActivateAttack()
     {
@@ -100,6 +101,7 @@ public class NewPlayer : PhysicsObject
         yield return new WaitForSeconds(attackDuration);
         attackBox.SetActive(false);
     }
+    */
 
     //Update UI elements
     public void UpdateUI()
