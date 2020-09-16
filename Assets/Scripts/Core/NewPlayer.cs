@@ -123,7 +123,14 @@ public class NewPlayer : PhysicsObject
 
     public void Die()
     {
-        SceneManager.LoadScene("SampleScene");
+        LoadLevel("Level1");
+    }
+
+    public void LoadLevel(string loadSceneString)
+    {
+        health = 100;
+        SceneManager.LoadScene(loadSceneString);
+        SetSpawnPosition();
     }
 
     public void AddInventoryItem(string inventoryName, Sprite image = null)

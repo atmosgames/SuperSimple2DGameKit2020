@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 12
-  m_Sprite: {fileID: -8460500097673997168, guid: dd4400c14565f1a48a1a189c74f50f8f,
+  m_Sprite: {fileID: -4546489025066111520, guid: dd4400c14565f1a48a1a189c74f50f8f,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -125,3 +125,5 @@ MonoBehaviour:
   itemType: 1
   inventoryStringName: 
   inventorySprite: {fileID: 0}
+  collectionSound: {fileID: 8300000, guid: 58dff34f4d07e48b9a198cf58466ae71, type: 3}
+  collectionSoundVolume: 0.2

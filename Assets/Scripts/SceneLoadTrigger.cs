@@ -23,8 +23,7 @@ public class SceneLoadTrigger : MonoBehaviour
     {
         if (col.gameObject == NewPlayer.Instance.gameObject)
         {
-            SceneManager.LoadScene(loadSceneString);
-            NewPlayer.Instance.SetSpawnPosition();
+            NewPlayer.Instance.LoadLevel(loadSceneString);
         }
     }
 }
