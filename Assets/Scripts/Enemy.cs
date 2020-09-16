@@ -20,6 +20,12 @@ public class Enemy : PhysicsObject
     private RaycastHit2D rightWallRaycastHit;
     private RaycastHit2D leftWallRaycastHit;
 
+    [Header("Sound Effects")]
+    [SerializeField] private AudioClip hurtSound;
+    [SerializeField] private AudioClip deathSound;
+    [SerializeField] private float hurtSoundVolume = 1;
+    [SerializeField] private float deathSoundVolume = 1;
+
 
     // Start is called before the first frame update
     void Start()
@@ -55,10 +61,16 @@ public class Enemy : PhysicsObject
         //If health < 0, destroy me
         if (health <= 0)
         {
+            NewPlayer.Instance.sfxAudioSource.PlayOneShot(deathSound, deathSoundVolume);
             Destroy(gameObject);
         }
     }
 
+    public void Hurt(int attackPower = 1)
+    {
+        health -= attackPower;
+        NewPlayer.Instance.sfxAudioSource.PlayOneShot(hurtSound, hurtSoundVolume);
+    }
 
     //If I collide with the player, hurt the player (health is going to decrease, update the UI)
     void OnCollisionEnter2D(Collision2D col)
@@ -66,8 +78,7 @@ public class Enemy : PhysicsObject
         if (col.gameObject == NewPlayer.Instance.gameObject)
         {
             //Hurt the player, then update the UI!
-            NewPlayer.Instance.health -= attackPower;
-            NewPlayer.Instance.UpdateUI();
+            NewPlayer.Instance.Hurt();
         }
     }
 }

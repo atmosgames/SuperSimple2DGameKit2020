@@ -141,6 +141,10 @@ MonoBehaviour:
   maxSpeed: 2
   rayCastLayerMask:
     serializedVersion: 2
-    m_Bits: 819
+    m_Bits: 307
   rayCastOffset: {x: 1, y: 0}
   rayCastLength: 1
+  hurtSound: {fileID: 8300000, guid: 827213ae71917459b9c9368275ce2059, type: 3}
+  deathSound: {fileID: 8300000, guid: 189a5e80d552942d2b1c84853d3543b2, type: 3}
+  hurtSoundVolume: 0.4
+  deathSoundVolume: 0.3

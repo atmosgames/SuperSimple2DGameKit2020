@@ -125,3 +125,5 @@ MonoBehaviour:
   itemType: 0
   inventoryStringName: 
   inventorySprite: {fileID: 0}
+  collectionSound: {fileID: 8300000, guid: a56fc866ceb3e49b7958efd430049343, type: 3}
+  collectionSoundVolume: 0.1

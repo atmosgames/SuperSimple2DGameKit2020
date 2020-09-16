@@ -8,6 +8,10 @@ public class Collectable : MonoBehaviour
     [SerializeField] private ItemType itemType;
     [SerializeField] private string inventoryStringName;
     [SerializeField] private Sprite inventorySprite;
+    [SerializeField] private AudioClip collectionSound;
+    [SerializeField] private float collectionSoundVolume = 1;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +30,7 @@ public class Collectable : MonoBehaviour
         //If the player is touching me, print "Collect" in the console
         if (collision.gameObject == NewPlayer.Instance.gameObject)
         {
+            if(collectionSound) NewPlayer.Instance.sfxAudioSource.PlayOneShot(collectionSound, collectionSoundVolume*Random.Range(.8f, 1.4f));
             if (itemType == ItemType.Coin)
             {
                 NewPlayer.Instance.coinsCollected += 1;

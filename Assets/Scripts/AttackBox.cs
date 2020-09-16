@@ -21,7 +21,8 @@ public class AttackBox : MonoBehaviour
        //If I touch an enemy, hurt the enemy! 
        if(col.gameObject.GetComponent<Enemy>())
         {
-            col.gameObject.GetComponent<Enemy>().health -= NewPlayer.Instance.attackPower;
+            //col.gameObject.GetComponent<Enemy>().health -= NewPlayer.Instance.attackPower;
+            col.gameObject.GetComponent<Enemy>().Hurt(NewPlayer.Instance.attackPower);
         }
     }
 }

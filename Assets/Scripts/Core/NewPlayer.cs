@@ -27,6 +27,10 @@ public class NewPlayer : PhysicsObject
     public Sprite keySprite; //The key inventory item
     public Sprite keyGemSprite; //The gem key inventory item
 
+    public AudioSource sfxAudioSource;
+    public AudioSource musicAudioSource;
+    public AudioSource ambienceAudioSource;
+
     //Singleton instantation
     private static NewPlayer instance;
     public static NewPlayer Instance
@@ -134,5 +138,12 @@ public class NewPlayer : PhysicsObject
         inventory.Remove(inventoryName);
         //The blank sprite should now swap with key sprite
         GameManager.Instance.inventoryItemImage.sprite = inventoryItemBlank;
+    }
+
+    public void Hurt()
+    {
+        animator.SetTrigger("hurt");
+        NewPlayer.Instance.health -= attackPower;
+        NewPlayer.Instance.UpdateUI();
     }
 }
