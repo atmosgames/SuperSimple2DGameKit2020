@@ -8,7 +8,6 @@ public class NewPlayer : PhysicsObject
 {
     [Header("Attributes")]
     [SerializeField] private float attackDuration; //How long is the attackBox active when attacking?
-    public int attackPower = 25;
     [SerializeField] private float jumpPower = 10;
     [SerializeField] private float maxSpeed = 1;
 
@@ -147,7 +146,7 @@ public class NewPlayer : PhysicsObject
         GameManager.Instance.inventoryItemImage.sprite = inventoryItemBlank;
     }
 
-    public void Hurt()
+    public void Hurt(int attackPower)
     {
         animator.SetTrigger("hurt");
         NewPlayer.Instance.health -= attackPower;

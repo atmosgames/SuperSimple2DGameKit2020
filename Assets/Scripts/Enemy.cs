@@ -71,17 +71,4 @@ public class Enemy : PhysicsObject
         health -= attackPower;
         NewPlayer.Instance.sfxAudioSource.PlayOneShot(hurtSound, hurtSoundVolume);
     }
-
-    /*
-    //If I collide with the player, hurt the player (health is going to decrease, update the UI)
-    void OnCollisionEnter2D(Collision2D col)
-    {
-        
-        if (col.gameObject == NewPlayer.Instance.gameObject)
-        {
-            //Hurt the player, then update the UI!
-            NewPlayer.Instance.Hurt();
-        }
-    }
-    */
 }
