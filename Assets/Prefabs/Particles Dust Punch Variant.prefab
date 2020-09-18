@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1875130405813232736
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1848437035192593, guid: e2e1a51c92e561a46933601205d58250, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848437035192593, guid: e2e1a51c92e561a46933601205d58250, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.256
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848437035192593, guid: e2e1a51c92e561a46933601205d58250, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848437035192593, guid: e2e1a51c92e561a46933601205d58250, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.49964064
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848437035192593, guid: e2e1a51c92e561a46933601205d58250, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5003591
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848437035192593, guid: e2e1a51c92e561a46933601205d58250, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5003591
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848437035192593, guid: e2e1a51c92e561a46933601205d58250, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49964064
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848437035192593, guid: e2e1a51c92e561a46933601205d58250, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848437035192593, guid: e2e1a51c92e561a46933601205d58250, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -180.082
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848437035192593, guid: e2e1a51c92e561a46933601205d58250, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848437035192593, guid: e2e1a51c92e561a46933601205d58250, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 89.99999
+      objectReference: {fileID: 0}
+    - target: {fileID: 626720671464168549, guid: e2e1a51c92e561a46933601205d58250,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2717769512916504965, guid: e2e1a51c92e561a46933601205d58250,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2717769512916504965, guid: e2e1a51c92e561a46933601205d58250,
+        type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2717769512916504965, guid: e2e1a51c92e561a46933601205d58250,
+        type: 3}
+      propertyPath: InitialModule.gravityModifier.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2717769512916504965, guid: e2e1a51c92e561a46933601205d58250,
+        type: 3}
+      propertyPath: InitialModule.gravityModifier.minScalar
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2717769512916504965, guid: e2e1a51c92e561a46933601205d58250,
+        type: 3}
+      propertyPath: InitialModule.gravityModifier.scalar
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2717769512916504965, guid: e2e1a51c92e561a46933601205d58250,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.a
+      value: 0.09019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 2717769512916504965, guid: e2e1a51c92e561a46933601205d58250,
+        type: 3}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2717769512916504965, guid: e2e1a51c92e561a46933601205d58250,
+        type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2717769512916504965, guid: e2e1a51c92e561a46933601205d58250,
+        type: 3}
+      propertyPath: ShapeModule.type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2717769512916504965, guid: e2e1a51c92e561a46933601205d58250,
+        type: 3}
+      propertyPath: ShapeModule.m_Scale.x
+      value: 0.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 2717769512916504965, guid: e2e1a51c92e561a46933601205d58250,
+        type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4166616152187138683, guid: e2e1a51c92e561a46933601205d58250,
+        type: 3}
+      propertyPath: m_Name
+      value: Particles Dust Punch
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e2e1a51c92e561a46933601205d58250, type: 3}

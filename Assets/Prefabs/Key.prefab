@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4514027396548243093}
   - component: {fileID: 4612939686136442720}
   - component: {fileID: 4612939686136442723}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Key
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29,7 +29,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -23.14, y: 8.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 8998730858894465185}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -128,3 +129,85 @@ MonoBehaviour:
     type: 3}
   collectionSound: {fileID: 8300000, guid: 74f4b117d50364f819c1905a428efe02, type: 3}
   collectionSoundVolume: 0.5
+  particlesCollectableGlitter: {fileID: 6435661278367782965}
+--- !u!1001 &7336255175845904807
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5202865157602250539}
+    m_Modifications:
+    - target: {fileID: 1814518814091155718, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814518814091155718, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814518814091155718, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814518814091155718, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814518814091155718, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814518814091155718, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814518814091155718, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814518814091155718, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814518814091155718, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814518814091155718, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814518814091155718, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2376261554383436396, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
+        type: 3}
+      propertyPath: m_Name
+      value: Particles Collectable Glitter
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 892420ad1e4ffdb4ca4b5bed85ce7179, type: 3}
+--- !u!4 &8998730858894465185 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1814518814091155718, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
+    type: 3}
+  m_PrefabInstance: {fileID: 7336255175845904807}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &6435661278367782965 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 4368371668808341906, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
+    type: 3}
+  m_PrefabInstance: {fileID: 7336255175845904807}
+  m_PrefabAsset: {fileID: 0}

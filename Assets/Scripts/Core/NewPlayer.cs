@@ -19,6 +19,7 @@ public class NewPlayer : PhysicsObject
 
     [Header("References")]
     [SerializeField] private Animator animator;
+    [SerializeField] private AnimatorFunctions animatorFunctions;
     [SerializeField] private GameObject attackBox;
     private Vector2 healthBarOrigSize;
     public Dictionary<string, Sprite> inventory = new Dictionary<string, Sprite>(); //Dictionary storing all inventory item strings and values
@@ -62,6 +63,7 @@ public class NewPlayer : PhysicsObject
         //If the player presses "Jump" and we're grounded, set the velocity to a jump power value
         if (Input.GetButtonDown("Jump") && grounded)
         {
+            animatorFunctions.EmitParticles1();
             velocity.y = jumpPower;
         }
 
