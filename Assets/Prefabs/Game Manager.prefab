@@ -1,5 +1,104 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1524147521
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1524147522}
+  - component: {fileID: 1524147524}
+  - component: {fileID: 1524147523}
+  m_Layer: 5
+  m_Name: Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1524147522
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524147521}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3350546572256188577}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 759.0034, y: 100.69617}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1524147524
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524147521}
+  m_CullTransparentMesh: 0
+--- !u!114 &1524147523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524147521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 95
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 95
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: 'SKYLINE CITY
+
+'
+--- !u!95 &1101404868
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3350546572256188589}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7f4d1476d4d324a64a5d25c7f3bebe9c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3350546573347015024
 GameObject:
   m_ObjectHideFlags: 0
@@ -44,9 +143,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c67f4c438bf849b8d9a4f3c02eee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthBar: {fileID: 3350546574248624834}
   coinsText: {fileID: 3350546572715780576}
+  healthBar: {fileID: 3350546574248624834}
   inventoryItemImage: {fileID: 3350546573179903062}
+  uiAnimator: {fileID: 1101404868}
 --- !u!1001 &5538695417163178360
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -167,6 +267,12 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 7383622740895543005, guid: 2ec7d9419bf733942a4afa1197b0194a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2ec7d9419bf733942a4afa1197b0194a, type: 3}
+--- !u!1 &3350546572256188589 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7107505369590790613, guid: 2ec7d9419bf733942a4afa1197b0194a,
+    type: 3}
+  m_PrefabInstance: {fileID: 5538695417163178360}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &3350546572256188577 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7107505369590790617, guid: 2ec7d9419bf733942a4afa1197b0194a,

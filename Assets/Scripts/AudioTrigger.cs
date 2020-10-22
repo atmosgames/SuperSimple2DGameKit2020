@@ -77,7 +77,8 @@ public class AudioTrigger : MonoBehaviour
             {
                 if (controlsTitle)
                 {
-                    //GameManager.Instance.hud.animator.SetBool("showTitle", true);
+                    //The UI Animator inside the Game Manager should set the animator trigger to ShowTitle
+                    GameManager.Instance.uiAnimator.SetTrigger("showTitle");
                 }
 
                 triggered = true;

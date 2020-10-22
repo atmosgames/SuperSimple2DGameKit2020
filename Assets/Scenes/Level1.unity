@@ -28314,6 +28314,11 @@ PrefabInstance:
       propertyPath: loop
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1196944760126262009, guid: b3d66125ce6ac4ee2911268ea321e31e,
+        type: 3}
+      propertyPath: controlsTitle
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2663744222825459294, guid: b3d66125ce6ac4ee2911268ea321e31e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28372,17 +28377,17 @@ PrefabInstance:
     - target: {fileID: 5791686864775774714, guid: b3d66125ce6ac4ee2911268ea321e31e,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5791686864775774714, guid: b3d66125ce6ac4ee2911268ea321e31e,
         type: 3}
       propertyPath: m_Offset.x
-      value: 20.082973
+      value: 41.78585
       objectReference: {fileID: 0}
     - target: {fileID: 5791686864775774714, guid: b3d66125ce6ac4ee2911268ea321e31e,
         type: 3}
       propertyPath: m_Size.x
-      value: 41.165947
+      value: 120.17793
       objectReference: {fileID: 0}
     - target: {fileID: 5791686864775774714, guid: b3d66125ce6ac4ee2911268ea321e31e,
         type: 3}
@@ -28408,6 +28413,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1524147523, guid: 994355a59e0ca4146812eb80ffceed09, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3350546573347015024, guid: 994355a59e0ca4146812eb80ffceed09,
         type: 3}
       propertyPath: m_Name
