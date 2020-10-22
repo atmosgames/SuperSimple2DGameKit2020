@@ -35,53 +35,59 @@ public class AudioTrigger : MonoBehaviour
         AudioTrigger to automatically play, the audioSource will begin playing.
         */
 
-        if (NewPlayer.Instance.health > 0)
+        if (NewPlayer.Instance != null)
         {
-            if (triggered || autoPlay)
+            if (NewPlayer.Instance.health > 0)
             {
-                if (!audioSource.isPlaying && !played)
+                if (triggered || autoPlay)
                 {
-                    audioSource.PlayOneShot(sound);
-                    played = true;
-                }
+                    if (!audioSource.isPlaying && !played)
+                    {
+                        audioSource.PlayOneShot(sound);
+                        played = true;
+                    }
 
-                //Begin fading in the audioSource volume as long as it's smaller than the goToVolume
-                if (audioSource.volume < maxVolume && fadeSpeed != 0)
+                    //Begin fading in the audioSource volume as long as it's smaller than the goToVolume
+                    if (audioSource.volume < maxVolume && fadeSpeed != 0)
+                    {
+                        audioSource.volume += fadeSpeed * Time.deltaTime;
+                    }
+                }
+                else
                 {
-                    audioSource.volume += fadeSpeed * Time.deltaTime;
+                    if (audioSource.volume > 0 && fadeSpeed != 0)
+                    {
+                        audioSource.volume -= fadeSpeed * Time.deltaTime;
+                    }
+                    else if (fadeSpeed != 0)
+                    {
+                        audioSource.Stop();
+                    }
                 }
             }
             else
             {
-                if (audioSource.volume > 0 && fadeSpeed != 0)
-                {
-                    audioSource.volume -= fadeSpeed * Time.deltaTime;
-                }
-                else if (fadeSpeed != 0)
-                {
-                    audioSource.Stop();
-                }
+                audioSource.Stop();
             }
-        }
-        else
-        {
-            audioSource.Stop();
         }
     }
 
     void OnTriggerStay2D(Collider2D col)
     {
-        if (col.gameObject == NewPlayer.Instance.gameObject)
+        if (NewPlayer.Instance.gameObject != null)
         {
-            if (!triggered)
+            if (col.gameObject == NewPlayer.Instance.gameObject)
             {
-                if (controlsTitle)
+                if (!triggered)
                 {
-                    //The UI Animator inside the Game Manager should set the animator trigger to ShowTitle
-                    GameManager.Instance.uiAnimator.SetTrigger("showTitle");
-                }
+                    if (controlsTitle)
+                    {
+                        //The UI Animator inside the Game Manager should set the animator trigger to ShowTitle
+                        GameManager.Instance.uiAnimator.SetTrigger("showTitle");
+                    }
 
-                triggered = true;
+                    triggered = true;
+                }
             }
         }
     }

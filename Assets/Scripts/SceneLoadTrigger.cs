@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class SceneLoadTrigger : MonoBehaviour
 {
     [SerializeField] private string loadSceneString;
+    [SerializeField] private bool destroyPlayer;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,11 @@ public class SceneLoadTrigger : MonoBehaviour
         if (col.gameObject == NewPlayer.Instance.gameObject)
         {
             NewPlayer.Instance.LoadLevel(loadSceneString);
+            if (destroyPlayer) {
+                Destroy(NewPlayer.Instance.gameObject);
+                Destroy(GameManager.Instance.gameObject);
+            }
+
         }
     }
 }
