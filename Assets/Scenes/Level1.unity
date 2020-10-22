@@ -28135,6 +28135,10 @@ PrefabInstance:
       propertyPath: m_Offset.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1169880606, guid: a4e0289d30727bb468228fc5434150b7, type: 3}
+      propertyPath: m_Size.x
+      value: 0.46
+      objectReference: {fileID: 0}
     - target: {fileID: 2152020456900497382, guid: a4e0289d30727bb468228fc5434150b7,
         type: 3}
       propertyPath: m_LocalRotation.z
