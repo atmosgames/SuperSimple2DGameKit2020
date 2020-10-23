@@ -23329,6 +23329,9 @@ PrefabInstance:
       propertyPath: m_Size.x
       value: 0.83
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.
+=======
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.
     - target: {fileID: 3168083110881917577, guid: a4e0289d30727bb468228fc5434150b7,
         type: 3}

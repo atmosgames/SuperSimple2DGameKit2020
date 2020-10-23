@@ -724,7 +724,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: -0.06446431
+=======
+      value: 0.76131773
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.76131773
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -733,7 +737,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.53787935
+=======
+      value: 1.2191997
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 1.2191997
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -742,7 +750,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.054402985
+=======
+      value: 0.055072337
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.055072337
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -751,7 +763,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.05483538
+=======
+      value: 0.054688692
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.054688692
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -770,7 +786,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.013831545
+=======
+      value: 0.15568924
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.15568924
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -779,7 +799,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.12077652
+=======
+      value: 0.1655839
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.1655839
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -788,7 +812,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.055771142
+=======
+      value: 0.15222952
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.15222952
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -797,7 +825,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.20219468
+=======
+      value: 0.14672844
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.14672844
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -931,7 +963,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: -0.009082109
+=======
+      value: 0.11984715
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.11984715
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -940,7 +976,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: -0.44454378
+=======
+      value: -0.5476874
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: -0.5476874
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -949,7 +989,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.14619854
+=======
+      value: 0.1347399
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.1347399
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -958,7 +1002,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.25010985
+=======
+      value: 0.13489315
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.13489315
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -967,7 +1015,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: -0.03314368
+=======
+      value: 0.601227
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.601227
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -976,7 +1028,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.38468558
+=======
+      value: 0.87717694
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.87717694
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -985,7 +1041,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.039927732
+=======
+      value: 0.2021652
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.2021652
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -994,7 +1054,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.20029904
+=======
+      value: 0.04351437
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.04351437
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1033,7 +1097,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.2322532
+=======
+      value: 0.6276846
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.6276846
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1042,7 +1110,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.w
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.97265536
+=======
+      value: 0.7784678
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.7784678
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1051,7 +1123,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 26.86
+=======
+      value: 77.759
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 77.759
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1080,7 +1156,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.9686985
+=======
+      value: 0.8726742
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.8726742
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1089,7 +1169,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.w
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.24824047
+=======
+      value: 0.4883029
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.4883029
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1098,7 +1182,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 151.253
+=======
+      value: 121.54201
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 121.54201
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1162,7 +1250,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.01255667
+=======
+      value: -0.056087583
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: -0.056087583
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1171,7 +1263,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.w
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.9999212
+=======
+      value: 0.99842584
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.99842584
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1190,7 +1286,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 1.439
+=======
+      value: -6.431
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: -6.431
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1234,7 +1334,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.0070567317
+=======
+      value: 0.5052805
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.5052805
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1243,7 +1347,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.54304373
+=======
+      value: 0.9493151
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.9493151
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1252,7 +1360,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.054174226
+=======
+      value: 0.054908007
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.054908007
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1261,7 +1373,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.0548463
+=======
+      value: 0.053934902
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.053934902
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1270,7 +1386,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.55895627
+=======
+      value: 0.6816959
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.6816959
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1279,7 +1399,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: -1.0930928
+=======
+      value: -0.8949135
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: -0.8949135
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1288,7 +1412,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.052664995
+=======
+      value: 0.05572027
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.05572027
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1297,7 +1425,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.052667737
+=======
+      value: 0.05504197
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.05504197
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1316,7 +1448,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: -0.004824914
+=======
+      value: 0.3234275
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.3234275
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1325,7 +1461,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.10681604
+=======
+      value: 0.259816
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.259816
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1334,7 +1474,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.21495362
+=======
+      value: 0.04158429
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.04158429
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1343,7 +1487,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.07689389
+=======
+      value: 0.21884033
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.21884033
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1367,7 +1515,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: -0.009205516
+=======
+      value: 0.12170368
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.12170368
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1376,7 +1528,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: -0.5317291
+=======
+      value: -0.52133423
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: -0.52133423
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1385,7 +1541,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.027729746
+=======
+      value: 0.027976505
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.027976505
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1394,7 +1554,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.027730793
+=======
+      value: 0.028033987
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.028033987
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1433,7 +1597,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: -0.13792622
+=======
+      value: 0.114115655
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.114115655
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1442,7 +1610,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: -0.56279695
+=======
+      value: -0.4541674
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: -0.4541674
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1451,7 +1623,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.08144665
+=======
+      value: 0.17336571
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.17336571
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1460,7 +1636,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.2145575
+=======
+      value: 0.109817296
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.109817296
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1494,7 +1674,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: -0.0063334107
+=======
+      value: 0.16967022
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.16967022
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1503,7 +1687,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: -0.2059381
+=======
+      value: -0.21184096
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: -0.21184096
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1512,7 +1700,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.14008278
+=======
+      value: 0.17793238
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.17793238
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1521,7 +1713,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.27345735
+=======
+      value: 0.29263732
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.29263732
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1550,7 +1746,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: -0.9943276
+=======
+      value: -0.8839421
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: -0.8839421
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1559,7 +1759,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.w
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.106360644
+=======
+      value: 0.46759638
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.46759638
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1568,7 +1772,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: -167.789
+=======
+      value: -124.243004
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: -124.243004
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1622,7 +1830,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: -0.47930682
+=======
+      value: 0.09727585
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.09727585
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1631,7 +1843,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: -1.049524
+=======
+      value: -0.5324621
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: -0.5324621
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1640,7 +1856,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.055801764
+=======
+      value: 0.052627504
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.052627504
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1649,7 +1869,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.05580008
+=======
+      value: 0.052593738
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.052593738
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1668,7 +1892,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.022634469
+=======
+      value: 0.27479124
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.27479124
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1677,7 +1905,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.38345802
+=======
+      value: 0.624419
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.624419
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1686,7 +1918,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.077498555
+=======
+      value: 0.19271626
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.19271626
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1695,7 +1931,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.19433191
+=======
+      value: 0.051576823
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.051576823
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1704,7 +1944,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.5064523
+=======
+      value: 0.61496013
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.61496013
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1713,7 +1957,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: -0.38973776
+=======
+      value: -0.3201468
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: -0.3201468
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1722,7 +1970,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.11464593
+=======
+      value: 0.1541906
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.1541906
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1731,7 +1983,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.19775972
+=======
+      value: 0.12771624
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.12771624
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1780,7 +2036,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: -0.00920504
+=======
+      value: 0.12212663
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.12212663
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1789,7 +2049,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: -0.53126633
+=======
+      value: -0.5327997
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: -0.5327997
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1798,7 +2062,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.027729746
+=======
+      value: 0.027976505
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.027976505
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1807,7 +2075,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.027730793
+=======
+      value: 0.028034002
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.028034002
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1826,7 +2098,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: -0.3821697
+=======
+      value: 0.09557694
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.09557694
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1835,7 +2111,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: -0.8931552
+=======
+      value: -0.531497
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: -0.531497
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1844,7 +2124,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.091857225
+=======
+      value: 0.19188917
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.19188917
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1853,7 +2137,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.1778661
+=======
+      value: 0.034107402
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.034107402
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1862,7 +2150,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.35232386
+=======
+      value: 0.43701077
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.43701077
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1871,7 +2163,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Center.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: -0.88482994
+=======
+      value: -0.7376766
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: -0.7376766
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1880,7 +2176,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.x
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.033803314
+=======
+      value: 0.098287866
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.098287866
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
@@ -1889,7 +2189,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Bounds.m_Extent.y
 <<<<<<< HEAD:Assets/Prefabs/Player.prefab
+<<<<<<< HEAD:Assets/Prefabs/Player.prefab
       value: 0.19457489
+=======
+      value: 0.17609549
+>>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
 =======
       value: 0.17609549
 >>>>>>> parent of 6ab7850... Particles for coins, enemies, health, etc.:Assets/Prefabs/Player Variant.prefab
