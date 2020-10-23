@@ -11,7 +11,7 @@ public class Collectable : MonoBehaviour
     [SerializeField] private AudioClip collectionSound;
     [SerializeField] private float collectionSoundVolume = 1;
 
-    [SerializeField] private ParticleSystem particlesCollectableGlitter;
+
 
     // Start is called before the first frame update
     void Start()
@@ -31,14 +31,6 @@ public class Collectable : MonoBehaviour
         if (collision.gameObject == NewPlayer.Instance.gameObject)
         {
             if(collectionSound) NewPlayer.Instance.sfxAudioSource.PlayOneShot(collectionSound, collectionSoundVolume*Random.Range(.8f, 1.4f));
-
-            if (particlesCollectableGlitter)
-            {
-                particlesCollectableGlitter.transform.parent = null;
-                particlesCollectableGlitter.gameObject.SetActive(true);
-                Destroy(particlesCollectableGlitter.gameObject, particlesCollectableGlitter.main.duration);
-            }
-
             if (itemType == ItemType.Coin)
             {
                 NewPlayer.Instance.coinsCollected += 1;
@@ -62,8 +54,6 @@ public class Collectable : MonoBehaviour
             {
 
             }
-
-
 
             NewPlayer.Instance.UpdateUI();
             Destroy(gameObject);

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 9124706485654046707}
   - component: {fileID: 1120503302}
   - component: {fileID: 1120503301}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29,8 +29,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -17.529863, y: 9.76649, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 5323852277623703038}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -128,85 +127,3 @@ MonoBehaviour:
   inventorySprite: {fileID: 0}
   collectionSound: {fileID: 8300000, guid: a56fc866ceb3e49b7958efd430049343, type: 3}
   collectionSoundVolume: 0.1
-  particlesCollectableGlitter: {fileID: 7805858198798419306}
---- !u!1001 &5822143110758587640
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 590040268474738253}
-    m_Modifications:
-    - target: {fileID: 1814518814091155718, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1814518814091155718, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1814518814091155718, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1814518814091155718, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1814518814091155718, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1814518814091155718, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1814518814091155718, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1814518814091155718, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1814518814091155718, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 1814518814091155718, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1814518814091155718, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2376261554383436396, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
-        type: 3}
-      propertyPath: m_Name
-      value: Particles Collectable Glitter
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 892420ad1e4ffdb4ca4b5bed85ce7179, type: 3}
---- !u!4 &5323852277623703038 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1814518814091155718, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
-    type: 3}
-  m_PrefabInstance: {fileID: 5822143110758587640}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &7805858198798419306 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 4368371668808341906, guid: 892420ad1e4ffdb4ca4b5bed85ce7179,
-    type: 3}
-  m_PrefabInstance: {fileID: 5822143110758587640}
-  m_PrefabAsset: {fileID: 0}

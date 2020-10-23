@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 8714952388807318178}
   - component: {fileID: 8714952388807318177}
   - component: {fileID: 3925585149256036548}
-  - component: {fileID: 7780709289849145361}
   m_Layer: 8
   m_Name: Enemy
   m_TagString: Untagged
@@ -29,11 +28,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8714952388807318183}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.744949, y: 0.829, z: 0}
+  m_LocalPosition: {x: -2.7449493, y: 1.0269679, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2502606315029008460}
-  - {fileID: 4535217961444813667}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -101,7 +99,7 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.46}
+  m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.57, y: 0.9}
   m_Direction: 0
 --- !u!50 &8714952388807318177
@@ -145,33 +143,12 @@ MonoBehaviour:
   rayCastLayerMask:
     serializedVersion: 2
     m_Bits: 307
-  rayCastOffset: {x: 1, y: 0.5}
+  rayCastOffset: {x: 1, y: 0}
   rayCastLength: 1
-  animator: {fileID: 7780709289849145361}
-  particleEnemyExplosion: {fileID: 1964045977660337143}
   hurtSound: {fileID: 8300000, guid: 827213ae71917459b9c9368275ce2059, type: 3}
   deathSound: {fileID: 8300000, guid: 189a5e80d552942d2b1c84853d3543b2, type: 3}
   hurtSoundVolume: 0.4
   deathSoundVolume: 0.3
---- !u!95 &7780709289849145361
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8714952388807318183}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 86b3e402671cf8243a894947ad915cac, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &438280644768696247
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -187,7 +164,7 @@ PrefabInstance:
     - target: {fileID: 2643083857345779591, guid: 3342588a4e9695843879419dc92bc479,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2643083857345779704, guid: 3342588a4e9695843879419dc92bc479,
         type: 3}
@@ -207,7 +184,7 @@ PrefabInstance:
     - target: {fileID: 2643083857345779707, guid: 3342588a4e9695843879419dc92bc479,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.483
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2643083857345779707, guid: 3342588a4e9695843879419dc92bc479,
         type: 3}
@@ -261,84 +238,4 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2643083857345779707, guid: 3342588a4e9695843879419dc92bc479,
     type: 3}
   m_PrefabInstance: {fileID: 438280644768696247}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &4537030904844712562
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 8714952388807318176}
-    m_Modifications:
-    - target: {fileID: 1848437035192593, guid: 98590ebb66367a347b0317b73010d806, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1848437035192593, guid: 98590ebb66367a347b0317b73010d806, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.45
-      objectReference: {fileID: 0}
-    - target: {fileID: 1848437035192593, guid: 98590ebb66367a347b0317b73010d806, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1848437035192593, guid: 98590ebb66367a347b0317b73010d806, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1848437035192593, guid: 98590ebb66367a347b0317b73010d806, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1848437035192593, guid: 98590ebb66367a347b0317b73010d806, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1848437035192593, guid: 98590ebb66367a347b0317b73010d806, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1848437035192593, guid: 98590ebb66367a347b0317b73010d806, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1848437035192593, guid: 98590ebb66367a347b0317b73010d806, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 1848437035192593, guid: 98590ebb66367a347b0317b73010d806, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1848437035192593, guid: 98590ebb66367a347b0317b73010d806, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2717769512916504965, guid: 98590ebb66367a347b0317b73010d806,
-        type: 3}
-      propertyPath: lengthInSec
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4166616152187138683, guid: 98590ebb66367a347b0317b73010d806,
-        type: 3}
-      propertyPath: m_Name
-      value: Particles Enemy Explosion
-      objectReference: {fileID: 0}
-    - target: {fileID: 4166616152187138683, guid: 98590ebb66367a347b0317b73010d806,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 98590ebb66367a347b0317b73010d806, type: 3}
---- !u!4 &4535217961444813667 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1848437035192593, guid: 98590ebb66367a347b0317b73010d806,
-    type: 3}
-  m_PrefabInstance: {fileID: 4537030904844712562}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &1964045977660337143 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 2717769512916504965, guid: 98590ebb66367a347b0317b73010d806,
-    type: 3}
-  m_PrefabInstance: {fileID: 4537030904844712562}
   m_PrefabAsset: {fileID: 0}

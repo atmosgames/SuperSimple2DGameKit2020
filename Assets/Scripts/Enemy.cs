@@ -15,12 +15,10 @@ public class Enemy : PhysicsObject
     [SerializeField] private float rayCastLength = 2;
 
     [Header("References")]
-    [SerializeField] private Animator animator;
     private RaycastHit2D rightLedgeRaycastHit;
     private RaycastHit2D leftLedgeRaycastHit;
     private RaycastHit2D rightWallRaycastHit;
     private RaycastHit2D leftWallRaycastHit;
-    [SerializeField] private ParticleSystem particleEnemyExplosion;
 
     [Header("Sound Effects")]
     [SerializeField] private AudioClip hurtSound;
@@ -32,7 +30,7 @@ public class Enemy : PhysicsObject
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -51,31 +49,26 @@ public class Enemy : PhysicsObject
         if (leftLedgeRaycastHit.collider == null) direction = 1;
 
         //Check for right wall!
-        rightWallRaycastHit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y + rayCastOffset.y), Vector2.right, rayCastLength, rayCastLayerMask);
-        Debug.DrawRay(new Vector2(transform.position.x, transform.position.y + rayCastOffset.y), Vector2.right * rayCastLength, Color.red);
+        rightWallRaycastHit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), Vector2.right, rayCastLength, rayCastLayerMask);
+        Debug.DrawRay(new Vector2(transform.position.x, transform.position.y), Vector2.right * rayCastLength, Color.red);
         if (rightWallRaycastHit.collider != null) direction = -1;
 
         //Check for left wall!
-        leftWallRaycastHit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y +rayCastOffset.y), Vector2.left, rayCastLength, rayCastLayerMask);
-        Debug.DrawRay(new Vector2(transform.position.x, transform.position.y + rayCastOffset.y), Vector2.left * rayCastLength, Color.magenta);
+        leftWallRaycastHit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), Vector2.left, rayCastLength, rayCastLayerMask);
+        Debug.DrawRay(new Vector2(transform.position.x, transform.position.y), Vector2.left * rayCastLength, Color.magenta);
         if (leftWallRaycastHit.collider != null) direction = 1;
 
         //If health < 0, destroy me
         if (health <= 0)
         {
             NewPlayer.Instance.sfxAudioSource.PlayOneShot(deathSound, deathSoundVolume);
-            particleEnemyExplosion.transform.parent = null;
-            particleEnemyExplosion.gameObject.SetActive(true);
-            Destroy(particleEnemyExplosion.gameObject, particleEnemyExplosion.main.duration);
             Destroy(gameObject);
-
         }
     }
 
     public void Hurt(int attackPower = 1)
     {
         health -= attackPower;
-        animator.SetTrigger("hurt");
         NewPlayer.Instance.sfxAudioSource.PlayOneShot(hurtSound, hurtSoundVolume);
     }
 }
