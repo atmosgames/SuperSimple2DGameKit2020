@@ -84,7 +84,6 @@ public class AudioTrigger : MonoBehaviour
                     {
                         //The UI Animator inside the Game Manager should set the animator trigger to ShowTitle
                         GameManager.Instance.uiAnimator.SetTrigger("showTitle");
-                        controlsTitle = false;
                     }
 
                     triggered = true;
