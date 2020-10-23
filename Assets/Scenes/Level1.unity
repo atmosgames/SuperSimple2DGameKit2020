@@ -28136,6 +28136,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1169880605, guid: a4e0289d30727bb468228fc5434150b7, type: 3}
+      propertyPath: ledgeForgiveness
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1169880605, guid: a4e0289d30727bb468228fc5434150b7, type: 3}
+      propertyPath: fallForgiveness
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 3168083110881917577, guid: a4e0289d30727bb468228fc5434150b7,
         type: 3}
       propertyPath: m_LocalPosition.x

@@ -10,6 +10,8 @@ public class NewPlayer : PhysicsObject
     [SerializeField] private float attackDuration; //How long is the attackBox active when attacking?
     [SerializeField] private float jumpPower = 10;
     [SerializeField] private float maxSpeed = 1;
+    [SerializeField] private float fallForgiveness = 1; //This is the amount of seconds the player has after falling from a ledge to be able to jump
+    [SerializeField] private float fallForgivenessCounter; //This is the simple counter that will begin the moment the player falls from a ledge
 
     [Header("Inventory")]
     public int ammo;
@@ -60,13 +62,27 @@ public class NewPlayer : PhysicsObject
     void Update()
     {
         targetVelocity = new Vector2(Input.GetAxis("Horizontal") * maxSpeed, 0);
+
+        //If the player is no longer grounded, begin counting the fallForgivenessCounter
+        if (!grounded)
+        {
+            fallForgivenessCounter += Time.deltaTime;
+        }
+        else
+        {
+            fallForgivenessCounter = 0;
+        }
+
         //If the player presses "Jump" and we're grounded, set the velocity to a jump power value
-        if (Input.GetButtonDown("Jump") && grounded)
+        if (Input.GetButtonDown("Jump") && fallForgivenessCounter < fallForgiveness)
         {
             animatorFunctions.EmitParticles1();
             velocity.y = jumpPower;
+            grounded = false;
+            fallForgivenessCounter = fallForgiveness;
         }
 
+     
         //Flip the player's localScale.x if the move speed is greater than .01 or less than -.01
         if (targetVelocity.x < -.01)
         {
@@ -97,16 +113,6 @@ public class NewPlayer : PhysicsObject
         animator.SetFloat("attackDirectionY", Input.GetAxis("Vertical"));
 
     }
-
-    /*
-    //Activate Attack Function
-    public IEnumerator ActivateAttack()
-    {
-        attackBox.SetActive(true);
-        yield return new WaitForSeconds(attackDuration);
-        attackBox.SetActive(false);
-    }
-    */
 
     //Update UI elements
     public void UpdateUI()

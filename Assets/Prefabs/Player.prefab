@@ -465,6 +465,8 @@ MonoBehaviour:
   attackDuration: 0.05
   jumpPower: 12
   maxSpeed: 8
+  fallForgiveness: 0.25
+  fallForgivenessCounter: 0
   ammo: 0
   coinsCollected: 0
   health: 100
