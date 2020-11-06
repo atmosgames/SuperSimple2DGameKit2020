@@ -12,6 +12,8 @@ public class NewPlayer : PhysicsObject
     [SerializeField] private float maxSpeed = 1;
     [SerializeField] private float fallForgiveness = 1; //This is the amount of seconds the player has after falling from a ledge to be able to jump
     [SerializeField] private float fallForgivenessCounter; //This is the simple counter that will begin the moment the player falls from a ledge
+    [SerializeField] private AudioClip deathSound;
+    private bool frozen;
 
     [Header("Inventory")]
     public int ammo;
@@ -61,47 +63,50 @@ public class NewPlayer : PhysicsObject
     // Update is called once per frame
     void Update()
     {
-        targetVelocity = new Vector2(Input.GetAxis("Horizontal") * maxSpeed, 0);
+        if (!frozen)
+        {
+            targetVelocity = new Vector2(Input.GetAxis("Horizontal") * maxSpeed, 0);
 
-        //If the player is no longer grounded, begin counting the fallForgivenessCounter
-        if (!grounded)
-        {
-            fallForgivenessCounter += Time.deltaTime;
-        }
-        else
-        {
-            fallForgivenessCounter = 0;
-        }
+            //If the player is no longer grounded, begin counting the fallForgivenessCounter
+            if (!grounded)
+            {
+                fallForgivenessCounter += Time.deltaTime;
+            }
+            else
+            {
+                fallForgivenessCounter = 0;
+            }
 
-        //If the player presses "Jump" and we're grounded, set the velocity to a jump power value
-        if (Input.GetButtonDown("Jump") && grounded)
-        {
-            animatorFunctions.EmitParticles1();
-            velocity.y = jumpPower;
-        }
+            //If the player presses "Jump" and we're grounded, set the velocity to a jump power value
+            if (Input.GetButtonDown("Jump") && grounded)
+            {
+                animatorFunctions.EmitParticles1();
+                velocity.y = jumpPower;
+            }
 
-     
-        //Flip the player's localScale.x if the move speed is greater than .01 or less than -.01
-        if (targetVelocity.x < -.01)
-        {
-            transform.localScale = new Vector2(-1, 1);
-        }
-        else if (targetVelocity.x > .01)
-        {
-            transform.localScale = new Vector2(1, 1);
-        }
 
-        //If we press "Fire1", then set the attackBox to active. Otherwise, set active to false
-        if (Input.GetButtonDown("Fire1"))
-        {
-            animator.SetTrigger("attack");
-            //StartCoroutine(ActivateAttack());
-        }
+            //Flip the player's localScale.x if the move speed is greater than .01 or less than -.01
+            if (targetVelocity.x < -.01)
+            {
+                transform.localScale = new Vector2(-1, 1);
+            }
+            else if (targetVelocity.x > .01)
+            {
+                transform.localScale = new Vector2(1, 1);
+            }
 
-        //Check if player health is smaller than or equal to 0.
-        if (health <= 0)
-        {
-            Die();
+            //If we press "Fire1", then set the attackBox to active. Otherwise, set active to false
+            if (Input.GetButtonDown("Fire1"))
+            {
+                animator.SetTrigger("attack");
+                //StartCoroutine(ActivateAttack());
+            }
+
+            //Check if player health is smaller than or equal to 0.
+            if (health <= 0)
+            {
+                StartCoroutine(Die());
+            }
         }
 
         //Set each animator float, bool, and trigger so it knows which animation to fire
@@ -126,16 +131,27 @@ public class NewPlayer : PhysicsObject
         transform.position = GameObject.Find("Spawn Location").transform.position;
     }
 
-    public void Die()
+    public IEnumerator Die()
     {
+        frozen = true;
+        sfxAudioSource.PlayOneShot(deathSound);
+        animator.SetBool("dead", true);
+        animatorFunctions.EmitParticles5();
+        //pause (yield) this function for 2 seconds
+        yield return new WaitForSeconds(2);
         LoadLevel("Level1");
     }
 
     public void LoadLevel(string loadSceneString)
     {
+        animator.SetBool("dead", false);
         health = 100;
+        coinsCollected = 0;
+        RemoveInventoryItem("none", true);
+        frozen = false;
         SceneManager.LoadScene(loadSceneString);
         SetSpawnPosition();
+        UpdateUI();
     }
 
     public void AddInventoryItem(string inventoryName, Sprite image = null)
@@ -145,8 +161,17 @@ public class NewPlayer : PhysicsObject
         GameManager.Instance.inventoryItemImage.sprite = inventory[inventoryName];
     }
 
-    public void RemoveInventoryItem(string inventoryName)
+    public void RemoveInventoryItem(string inventoryName, bool removeAll = false)
     {
+        if(!removeAll)
+        {
+            inventory.Remove(inventoryName);
+        }
+        else
+        {
+            inventory.Clear();
+        }
+
         inventory.Remove(inventoryName);
         //The blank sprite should now swap with key sprite
         GameManager.Instance.inventoryItemImage.sprite = inventoryItemBlank;
