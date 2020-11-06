@@ -5,6 +5,7 @@ using UnityEngine;
 public class Gate : MonoBehaviour
 {
     [SerializeField] private string requiredInventoryItemString;
+    [SerializeField] private Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -26,7 +27,7 @@ public class Gate : MonoBehaviour
             if (NewPlayer.Instance.inventory.ContainsKey(requiredInventoryItemString))
             {
                 NewPlayer.Instance.RemoveInventoryItem(requiredInventoryItemString);
-                Destroy(gameObject);
+                animator.SetBool("opened", true);
             }
         }
     }
