@@ -143,6 +143,14 @@ public class NewPlayer : PhysicsObject
         LoadLevel("Level1");
     }
 
+    public IEnumerator FreezeEffect(float length, float timeScale)
+    {
+        Time.timeScale = timeScale;
+        yield return new WaitForSeconds(length);
+        Time.timeScale = 1;
+
+    }
+
     public void LoadLevel(string loadSceneString)
     {
         animator.SetBool("dead", false);
@@ -180,6 +188,7 @@ public class NewPlayer : PhysicsObject
 
     public void Hurt(int attackPower)
     {
+        StartCoroutine(FreezeEffect(.5f, .6f));
         animator.SetTrigger("hurt");
         cameraEffects.Shake(5, .5f);
         NewPlayer.Instance.health -= attackPower;

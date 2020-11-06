@@ -63,6 +63,7 @@ public class Enemy : PhysicsObject
         //If health < 0, destroy me
         if (health <= 0)
         {
+            NewPlayer.Instance.StartCoroutine(NewPlayer.Instance.FreezeEffect(.3f, .4f));
             NewPlayer.Instance.sfxAudioSource.PlayOneShot(deathSound, deathSoundVolume);
             particleEnemyExplosion.transform.parent = null;
             particleEnemyExplosion.gameObject.SetActive(true);

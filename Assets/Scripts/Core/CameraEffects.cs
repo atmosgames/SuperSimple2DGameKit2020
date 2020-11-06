@@ -9,12 +9,12 @@ public class CameraEffects : MonoBehaviour
 {
     public Vector3 cameraWorldSize;
     public CinemachineFramingTransposer cinemachineFramingTransposer;
-    [SerializeField] private CinemachineBasicMultiChannelPerlin multiChannelPerlin;
+    private CinemachineBasicMultiChannelPerlin multiChannelPerlin;
     public float screenYDefault;
     public float screenYTalking;
     [Range(0, 10)]
     [System.NonSerialized] public float shakeLength = 10;
-    [SerializeField] private CinemachineVirtualCamera virtualCamera;
+    private CinemachineVirtualCamera virtualCamera;
 
     void Start()
     {

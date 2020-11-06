@@ -1145,6 +1145,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a373bccab97000445a01ffd049153f64, type: 3}
+--- !u!1 &100434019 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7217249760360387032, guid: 9037d4335db580246a3ccc08afde0c09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7217249761754180100}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &100434023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100434019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d33e182035044244a72248704dee5aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraWorldSize: {x: 0, y: 0, z: 0}
+  cinemachineFramingTransposer: {fileID: 0}
+  screenYDefault: 0
+  screenYTalking: 0
 --- !u!4 &100818161 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 890415229594348098, guid: a373bccab97000445a01ffd049153f64,
@@ -11256,6 +11278,29 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 688349378}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &997376149 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7217249761186557541, guid: 9037d4335db580246a3ccc08afde0c09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7217249761754180100}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &997376153
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997376149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NoiseProfile: {fileID: 11400000, guid: 69ce8388f6785dd4c8c39915efece2f4, type: 2}
+  m_PivotOffset: {x: 0, y: 0, z: 0}
+  m_AmplitudeGain: 1
+  m_FrequencyGain: 0
+  mNoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!4 &1002737673 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7148577961660536518, guid: 9663e2fb0947de74e84f932cf6c24163,
@@ -28144,6 +28189,10 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 8300000, guid: 6a78b508a5f344caf90ef54788c6d8b0, type: 3}
+    - target: {fileID: 1169880605, guid: a4e0289d30727bb468228fc5434150b7, type: 3}
+      propertyPath: cameraEffects
+      value: 
+      objectReference: {fileID: 100434023}
     - target: {fileID: 3168083110881917577, guid: a4e0289d30727bb468228fc5434150b7,
         type: 3}
       propertyPath: m_LocalPosition.x
