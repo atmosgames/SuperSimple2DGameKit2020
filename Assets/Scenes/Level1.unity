@@ -28182,17 +28182,21 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1169880605, guid: a4e0289d30727bb468228fc5434150b7, type: 3}
-      propertyPath: fallForgiveness
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 1169880605, guid: a4e0289d30727bb468228fc5434150b7, type: 3}
-      propertyPath: deathSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 6a78b508a5f344caf90ef54788c6d8b0, type: 3}
-    - target: {fileID: 1169880605, guid: a4e0289d30727bb468228fc5434150b7, type: 3}
       propertyPath: cameraEffects
       value: 
       objectReference: {fileID: 100434023}
+    - target: {fileID: 1169880605, guid: a4e0289d30727bb468228fc5434150b7, type: 3}
+      propertyPath: launchRecovery
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1169880605, guid: a4e0289d30727bb468228fc5434150b7, type: 3}
+      propertyPath: launchPower.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1169880605, guid: a4e0289d30727bb468228fc5434150b7, type: 3}
+      propertyPath: launchPower.y
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3168083110881917577, guid: a4e0289d30727bb468228fc5434150b7,
         type: 3}
       propertyPath: m_LocalPosition.x

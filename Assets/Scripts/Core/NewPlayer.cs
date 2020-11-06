@@ -14,6 +14,9 @@ public class NewPlayer : PhysicsObject
     [SerializeField] private float fallForgivenessCounter; //This is the simple counter that will begin the moment the player falls from a ledge
     [SerializeField] private AudioClip deathSound;
     private bool frozen;
+    private float launch;
+    [SerializeField] private float launchRecovery;
+    [SerializeField] private Vector2 launchPower;
 
     [Header("Inventory")]
     public int ammo;
@@ -66,7 +69,10 @@ public class NewPlayer : PhysicsObject
     {
         if (!frozen)
         {
-            targetVelocity = new Vector2(Input.GetAxis("Horizontal") * maxSpeed, 0);
+            //Lerp (ease) the launch value back to zero at all times
+            launch += (0 - launch) * Time.deltaTime * launchRecovery;
+
+            targetVelocity = new Vector2(Input.GetAxis("Horizontal") * maxSpeed + launch, 0);
 
             //If the player is no longer grounded, begin counting the fallForgivenessCounter
             if (!grounded)
@@ -188,10 +194,13 @@ public class NewPlayer : PhysicsObject
         GameManager.Instance.inventoryItemImage.sprite = inventoryItemBlank;
     }
 
-    public void Hurt(int attackPower)
+    public void Hurt(int attackPower, int targetSide)
     {
         StartCoroutine(FreezeEffect(.5f, .6f));
         animator.SetTrigger("hurt");
+        Debug.Log("I'm getting hurt on my side:" + targetSide);
+        launch = -targetSide * launchPower.x;
+        velocity.y = launchPower.y;
         cameraEffects.Shake(5, .5f);
         NewPlayer.Instance.health -= attackPower;
         NewPlayer.Instance.UpdateUI();
