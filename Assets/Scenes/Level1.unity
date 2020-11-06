@@ -2028,7 +2028,7 @@ PrefabInstance:
     - target: {fileID: 5202865157602250539, guid: 97be460eb179ede40b5117ec90db3bfa,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 19.28
+      value: 11.14
       objectReference: {fileID: 0}
     - target: {fileID: 5202865157602250539, guid: 97be460eb179ede40b5117ec90db3bfa,
         type: 3}
@@ -28183,7 +28183,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1169880605, guid: a4e0289d30727bb468228fc5434150b7, type: 3}
       propertyPath: fallForgiveness
-      value: 0.1
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 1169880605, guid: a4e0289d30727bb468228fc5434150b7, type: 3}
       propertyPath: deathSound

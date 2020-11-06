@@ -79,10 +79,12 @@ public class NewPlayer : PhysicsObject
             }
 
             //If the player presses "Jump" and we're grounded, set the velocity to a jump power value
-            if (Input.GetButtonDown("Jump") && grounded)
+            if (Input.GetButtonDown("Jump") && fallForgivenessCounter < fallForgiveness)
             {
                 animatorFunctions.EmitParticles1();
                 velocity.y = jumpPower;
+                grounded = false;
+                fallForgivenessCounter = fallForgiveness;
             }
 
 
