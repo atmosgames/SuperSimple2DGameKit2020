@@ -25,6 +25,7 @@ public class NewPlayer : PhysicsObject
     [SerializeField] private Animator animator;
     [SerializeField] private AnimatorFunctions animatorFunctions;
     [SerializeField] private GameObject attackBox;
+    public CameraEffects cameraEffects;
     private Vector2 healthBarOrigSize;
     public Dictionary<string, Sprite> inventory = new Dictionary<string, Sprite>(); //Dictionary storing all inventory item strings and values
     public Sprite inventoryItemBlank; //The default inventory item slot sprite
@@ -180,6 +181,7 @@ public class NewPlayer : PhysicsObject
     public void Hurt(int attackPower)
     {
         animator.SetTrigger("hurt");
+        cameraEffects.Shake(5, .5f);
         NewPlayer.Instance.health -= attackPower;
         NewPlayer.Instance.UpdateUI();
     }
